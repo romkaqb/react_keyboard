@@ -7,7 +7,7 @@ type State = {
 export class App extends React.Component<State> {
   state = {
     pressedKey: null,
-  }
+  };
 
   componentDidMount() {
     document.addEventListener('keyup', (event: KeyboardEvent) => {
